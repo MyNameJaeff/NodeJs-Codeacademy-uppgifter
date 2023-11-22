@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>RPS</title>
+</head>
+
+<body>
+    <h1>Rock-Paper-Scissors</h1>
+    <nav>
+        <a href="./">Home</a>
+        <a href="./rps">RPS</a>
+        <a href="./msg">MsgMxr</a>
+    </nav>
+    <main>
+        <div>
+            <div class="playerChoises">
+                <input type="image" src="../img/rock.png" name="rock" id="rock" onclick="playerChoise('rock')">
+                <input type="image" src="../img/paper.png" name="paper" id="paper" onclick="playerChoise('paper')">
+                <input type="image" src="../img/scissors.png" name="scissors" id="scissors"
+                    onclick="playerChoise('scissors')">
+            </div>
+            <div id="computerOutput">
+                <p>The computer chose:</p>
+                <div id="computerChoise">
+
+                </div>
+                <p id="result"></p>
+            </div>
+        </div>
+    </main>
+    <script src="../js/rps.js"></script>
+</body>
+
+</html>

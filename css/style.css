@@ -1,0 +1,13 @@
+body{
+    background-color: lightgray;
+}
+.playerChoises, #computerChoise{
+    width: fit-content;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#computerChoise>img, input[type=image]{
+    width: 100px;
+}
