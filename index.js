@@ -9,6 +9,7 @@ const homePage = fs.readFileSync("./index.html");
 const rpsPage = fs.readFileSync("./html/rps.html");
 const msgPage = fs.readFileSync("./html/msgMxr.html");
 
+// Images
 const rock = fs.readFileSync("./img/rock.png");
 const paper = fs.readFileSync("./img/paper.png");
 const scissors = fs.readFileSync("./img/scissors.png");
